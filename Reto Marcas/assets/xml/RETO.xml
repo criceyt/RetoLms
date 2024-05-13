@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="RETO.xsd">
+    <juegos>
+        <juego titulo="Assassins Creed Valhalla" ruta="../../pages/games/valhalla.html">
+            <genero>Acción</genero>
+            <genero>Mundo Abierto</genero>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>49.99</precio>
+            <caratula src="../../assets/images/games/valhalla.jpg" />
+        </juego>
+        <juego titulo="Cyberpunk 2077" ruta="../../pages/games/ciberpunk.html">
+            <genero>Rol</genero>
+            <genero>Acción</genero>
+            <genero>Mundo abierto</genero>
+            <plataforma>PlayStation4</plataforma>
+            <precio>14.99</precio>
+            <caratula src="../../assets/images/games/Cyberpunk.jpg" />
+        </juego>
+        <juego titulo="Battlefield 2042" ruta="../../pages/games/battfield2042.html">
+            <genero>Shooter en primera persona</genero>
+            <genero>Multiplayer</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>55.00</precio>
+            <caratula src="../../assets/images/games/Battlefield2042.jpeg" />
+        </juego>
+        <juego titulo="Call Of Duty:Modern Warfare III" ruta="../../pages/games/codmw3.html">
+            <genero>Shooter en primera persona</genero>
+            <genero>Multiplayer</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="../../assets/images/games/MWII.jpeg" />
+        </juego>
+        <juego titulo="Dead Island 2" ruta="../../pages/games/deadisland.html">
+            <genero>Adventure</genero>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="../../assets/images/games/deadisland.jpg" />
+        </juego>
+        <juego titulo="Cuphead" ruta="../../pages/games/cuphead.html">
+            <genero>Acción</genero>
+            <genero>Indie</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>14.99</precio>
+            <caratula src="../../assets/images/games/cuphead.jpg" />
+        </juego>
+        <juego titulo="Divinity: Original Sin 2"
+            ruta="../../pages/games/Divinity Original Sin 2.html">
+            <genero>Adventure</genero>
+            <genero>Rol</genero>
+            <genero>Estrategia</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>78.99</precio>
+            <caratula src="../../assets/images/games/divinity.jpg" />
+        </juego>
+        <juego titulo="Dark Souls3" ruta="../../pages/games/ds3.html">
+            <genero>Action</genero>
+            <genero>RPG</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <precio>29.99</precio>
+            <caratula src="../../assets/images/games/darksouls3.jpg" />
+        </juego>
+        <juego titulo="Extreme Offroad Racing" ruta="../../pages/games/extreme.html">
+            <genero>Racing</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <precio>8.99</precio>
+            <caratula src="../../assets/images/games/extreme.jpg" />
+        </juego>
+        <juego titulo="Far Cry 5" ruta="../../pages/games/farcry5.html">
+            <genero>Shooter en primera persona</genero>
+            <genero>Mundo Abierto</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStarion5</plataforma>
+            <precio>29.99</precio>
+            <caratula src="../../assets/images/games/FarCry5.jpg" />
+        </juego>
+        <juego titulo="FORTNITE" ruta="../../pages/games/fornite.html">
+            <genero>Multiplayer</genero>
+            <genero>Shooter</genero>
+            <genero>Tercera Persona</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>20.00</precio>
+            <caratula src="../../assets/images/games/Fortnite.jpeg" />
+        </juego>
+        <juego titulo="Gearhead Karting Simulator" ruta="../../pages/games/gearhead.html">
+            <genero>Racing</genero>
+            <plataforma>PC</plataforma>
+            <precio>4.49</precio>
+            <caratula src="../../assets/images/games/gearhead.jpg" />
+        </juego>
+        <juego titulo="Limbo" ruta="../../pages/games/limbo.html">
+            <genero>Rompecabezas en 2D</genero>
+            <plataforma>PC</plataforma>
+            <precio>2.49</precio>
+            <caratula src="../../assets/images/games/limbo.jpg" />
+        </juego>
+        <juego titulo="Rocket League" ruta="../../pages/games/rocketleague.html">
+            <genero>Racing</genero>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>20.00</precio>
+            <caratula src="../../assets/images/games/rocket.jpg" />
+        </juego>
+        <juego titulo="RUST" ruta="../../pages/games/rust.html">
+            <genero>Adventure</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="../../assets/images/games/rust.jpg" />
+        </juego>
+        <juego titulo="STAR WARS Jedi: Fallen Order" ruta="../../pages/games/starwar.html">
+            <genero>Adventure</genero>
+            <genero>Action</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>49.99</precio>
+            <caratula src="../../assets/images/games/StarWars.jpg" />
+        </juego>
+        <juego titulo="The Elder Scrolls V: Skyrim" ruta="../../pages/games/skyrim.html">
+            <genero>RPG</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <precio>9.99</precio>
+            <caratula src="../../assets/images/games/skyrim.jpeg" />
+        </juego>
+        <juego titulo="Diablo IV" ruta="../../pages/games/diablo4.html">
+            <genero>Action</genero>
+            <genero>RPG</genero>
+            <genero>Roguelike</genero>
+            <genero>RPG</genero>
+            <plataforma>PlayStation4</plataforma>
+            <precio>69.99</precio>
+            <caratula src="../../assets/images/games/diabloiv.jpeg" />
+        </juego>
+    </juegos>
+    <usuarios>
+        <usuario id="01">
+            <dni>78351267T</dni>
+            <nombre>Oier</nombre>
+            <apellido>Urkizu</apellido>
+            <correo>urkizu.oier@gmail.com</correo>
+            <contrasena>abcd*1234</contrasena>
+            <premium />
+            <codigoPostal>42390</codigoPostal>
+            <biblioteca>
+                <nombreJuego>Assassins Creed Valhalla</nombreJuego>
+                <nombreJuego>Dead Island 2</nombreJuego>
+                <nombreJuego>RUST</nombreJuego>
+                <nombreJuego>STAR WARS Jedi: Fallen Order</nombreJuego>
+            </biblioteca>
+        </usuario>
+        <usuario id="02">
+            <dni>34721678I</dni>
+            <nombre>Ekain</nombre>
+            <apellido>Larrea</apellido>
+            <telefono>626514937</telefono>
+            <contrasena>abcd*1234</contrasena>
+            <codigoPostal>45293</codigoPostal>
+            <biblioteca>
+                <nombreJuego>Assassins Creed Valhalla</nombreJuego>
+                <nombreJuego>Dead Island 2</nombreJuego>
+            </biblioteca>
+        </usuario>
+        <usuario id="03">
+            <dni>20289763R</dni>
+            <nombre>Gorka</nombre>
+            <apellido>Arteaga</apellido>
+            <correo>arteaga.gorka@gmail.com</correo>
+            <contrasena>abcd*1234</contrasena>
+            <premium />
+            <codigoPostal>48920</codigoPostal>
+            <biblioteca>
+                <nombreJuego>RUST</nombreJuego>
+                <nombreJuego>STAR WARS Jedi: Fallen Order</nombreJuego>
+            </biblioteca>
+        </usuario>
+    </usuarios>
+</tienda>
