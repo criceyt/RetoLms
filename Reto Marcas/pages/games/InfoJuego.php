@@ -58,11 +58,16 @@
     if (!$codigoJuego) {
         throw new Exception("No se proporcionó un código de juego válido.");
     }
-
-    // Cargar el archivo XML de juegos
-    $xml = new DOMDocument;
-    $xml->load('../../assets/xml/Juegos.xml');
-
+    require_once '"../../../../basex/BDConexion.php"';
+    $session = new Session();        
+    // open database
+    $session->execute("open juegos");
+   
+    $xmlStr = $session->execute("xquery /");
+    // close session
+    $session->close();
+    $xml = new DOMDocument;           
+    $xml->loadXML($xmlStr);
     // Cargar el archivo XSLT para mostrar los detalles del juego
     $xsl = new DOMDocument;
     $xsl->load('../../assets/xslt/Juegos.xslt');

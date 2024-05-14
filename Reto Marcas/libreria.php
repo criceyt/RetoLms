@@ -119,36 +119,53 @@
             <div class="main-flex">
 
                 <main>
-                    <?php
-                    if (isset($_SESSION["dni"])) {
-                        try {
-                            // Cargar el archivo XML local
-                            $xml = new DOMDocument();
-                            $xml->load("assets/xml/RETO.xml");
+                <?php
+if (isset($_SESSION["dni"])) {
+    try {
+        // Importar la clase Session de BaseX
+        require_once "../../basex/BDConexion.php";
+        
+        // Crear una nueva sesión BaseX
+        $session = new Session();        
 
-                            // Crear un nuevo documento XSLT
-                            $xsl = new DOMDocument();
-                            $xsl->load("assets/xslt/biblioteca.xslt");
+        // Abrir la base de datos
+        $session->execute("open RETO");
 
-                            // Crear un nuevo procesador XSLT
-                            $processor = new XSLTProcessor();
-                            $processor->importStylesheet($xsl);
+        // Realizar la consulta para obtener el XML
+        $xmlStr = $session->execute("xquery /");
 
-                            // Pasar el DNI del usuario como parámetro
-                            $dni = $_SESSION["dni"];
-                            $processor->setParameter('', 'dni', $dni);
+        // Cerrar la sesión
+        $session->close();
 
-                            // Transformar el XML
-                            echo $processor->transformToXML($xml);
-                        } catch (Exception $e) {
-                            // Manejar cualquier excepción
-                            echo "Error: " . $e->getMessage();
-                        }
-                    } else {
-                        // Mostrar mensaje para logearse
-                        echo "<p>Por favor, inicie sesión para acceder a la biblioteca.</p>";
-                    }
-                    ?>
+        // Crear un nuevo documento XML a partir del string obtenido
+        $xml = new DOMDocument;           
+        $xml->loadXML($xmlStr);
+
+        // Crear un nuevo documento XSLT
+        $xsl = new DOMDocument();
+        $xsl->load("assets/xslt/biblioteca.xslt");
+
+        // Crear un nuevo procesador XSLT
+        $processor = new XSLTProcessor();
+        $processor->importStylesheet($xsl);
+
+        // Pasar el DNI del usuario como parámetro
+        $dni = $_SESSION["dni"];
+        $processor->setParameter('', 'dni', $dni);
+
+        // Transformar el XML
+        echo $processor->transformToXML($xml);
+    } catch (Exception $e) {
+        // Manejar cualquier excepción
+        echo "Error: " . $e->getMessage();
+    }
+} else {
+    // Mostrar mensaje para logearse
+    echo "<p>Por favor, inicie sesión para acceder a la biblioteca.</p>";
+}
+?>
+
+
 
                 </main>
 
