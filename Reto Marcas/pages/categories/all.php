@@ -120,7 +120,7 @@
                 <?php
 try {
     // Importar la clase Session de BaseX
-    require_once '"../../../../basex/BDConexion.php"';
+    require_once '"../../../basex/BDConexion.php"';
     $session = new Session();        
     // open database
     $session->execute("open RETO");

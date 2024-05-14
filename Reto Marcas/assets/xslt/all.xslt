@@ -91,15 +91,15 @@
           </tr>
           <xsl:for-each select="tienda/juegos/juego">
           <xsl:variable name="titulo" select="@titulo" />
-          <xsl:variable name="id" select="@id" />
+          <xsl:variable name="codigoJuego" select="@codigoJuego" />
           <tr>
             <td>
-              <a href="{concat('../../pages/games/InfoJuego.php?id=', $id)}">
+              <a href="{concat('../../pages/games/InfoJuego.php?codigoJuego=', $codigoJuego)}">
                 <img src="{caratula/@src}" alt="{$titulo}" />
               </a>
             </td>
             <td>
-              <a href="{concat('../../pages/games/InfoJuego.php?id=', $id)}">
+              <a href="{concat('../../pages/games/InfoJuego.php?codigoJuego=', $codigoJuego)}">
                 <xsl:value-of select="$titulo" />
               </a>
             </td>

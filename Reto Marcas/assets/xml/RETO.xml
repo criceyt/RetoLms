@@ -2,47 +2,7 @@
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="RETO.xsd">
     <juegos>
-        <juego titulo="Assassins Creed Valhalla" id="1" ruta="../../pages/games/valhalla.html">
-            <genero>Acción</genero>
-            <genero>Mundo Abierto</genero>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>49.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/valhalla.jpg" />
-        </juego>
-        <juego titulo="Cyberpunk 2077" id="2" ruta="../../pages/games/ciberpunk.html">
-            <genero>Rol</genero>
-            <genero>Acción</genero>
-            <genero>Mundo abierto</genero>
-            <plataforma>PlayStation4</plataforma>
-            <precio>14.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/Cyberpunk.jpg" />
-        </juego>
-        <juego titulo="Battlefield 2042" id="3" ruta="../../pages/games/battfield2042.html">
-            <genero>Shooter en primera persona</genero>
-            <genero>Multiplayer</genero>
-            <plataforma>PC</plataforma>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>55.00</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/Battlefield2042.jpeg" />
-        </juego>
-        <juego titulo="Call Of Duty:Modern Warfare III" ruta="../../pages/games/codmw3.html">
-            <genero>Shooter en primera persona</genero>
-            <genero>Multiplayer</genero>
-            <plataforma>PC</plataforma>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>69.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/MWII.jpeg" />
-        </juego>
-        <juego titulo="Dead Island 2" ruta="../../pages/games/deadisland.html">
-            <genero>Adventure</genero>
-            <plataforma>PlayStation5</plataforma>
-            <precio>69.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/deadisland.jpg" />
-        </juego>
-        <juego titulo="Cuphead" ruta="../../pages/games/cuphead.html">
+        <juego titulo="Cuphead" codigoJuego="1" ruta="../../pages/games/cuphead.html">
             <genero>Acción</genero>
             <genero>Indie</genero>
             <plataforma>PC</plataforma>
@@ -51,7 +11,23 @@
             <precio>14.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/cuphead.jpg" />
         </juego>
-        <juego titulo="Divinity: Original Sin 2"
+        <juego titulo="Cyberpunk 2077" codigoJuego="2" ruta="../../pages/games/ciberpunk.html">
+            <genero>Rol</genero>
+            <genero>Acción</genero>
+            <genero>Mundo abierto</genero>
+            <plataforma>PlayStation4</plataforma>
+            <precio>14.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Cyberpunk.jpg" />
+        </juego>
+
+        <juego titulo="Dead Island 2" codigoJuego="3" ruta="../../pages/games/deadisland.html">
+            <genero>Adventure</genero>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/deadisland.jpg" />
+        </juego>
+
+        <juego titulo="Divinity: Original Sin 2" codigoJuego="4"
             ruta="../../pages/games/Divinity Original Sin 2.html">
             <genero>Adventure</genero>
             <genero>Rol</genero>
@@ -62,22 +38,15 @@
             <precio>78.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/divinity.jpg" />
         </juego>
-        <juego titulo="Dark Souls3" ruta="../../pages/games/ds3.html">
-            <genero>Action</genero>
-            <genero>RPG</genero>
-            <plataforma>PC</plataforma>
-            <plataforma>PlayStation4</plataforma>
-            <precio>29.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/darksouls3.jpg" />
-        </juego>
-        <juego titulo="Extreme Offroad Racing" ruta="../../pages/games/extreme.html">
+
+        <juego titulo="Extreme Offroad Racing" codigoJuego="5" ruta="../../pages/games/extreme.html">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>8.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/extreme.jpg" />
         </juego>
-        <juego titulo="Far Cry 5" ruta="../../pages/games/farcry5.html">
+        <juego titulo="Far Cry 5" codigoJuego="6" ruta="../../pages/games/farcry5.html">
             <genero>Shooter en primera persona</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PC</plataforma>
@@ -85,7 +54,82 @@
             <precio>29.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/FarCry5.jpg" />
         </juego>
-        <juego titulo="FORTNITE" ruta="../../pages/games/fornite.html">
+        <juego titulo="Gearhead Karting Simulator" codigoJuego="7"
+            ruta="../../pages/games/gearhead.html">
+            <genero>Racing</genero>
+            <plataforma>PC</plataforma>
+            <precio>4.49</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/gearhead.jpg" />
+        </juego>
+        <juego titulo="Limbo" codigoJuego="8" ruta="../../pages/games/limbo.html">
+            <genero>Rompecabezas en 2D</genero>
+            <plataforma>PC</plataforma>
+            <precio>2.49</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/limbo.jpg" />
+        </juego>
+        <juego titulo="Rocket League" codigoJuego="9" ruta="../../pages/games/rocketleague.html">
+            <genero>Racing</genero>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>20.00</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/rocket.jpg" />
+        </juego>
+        <juego titulo="RUST" codigoJuego="10" ruta="../../pages/games/rust.html">
+            <genero>Adventure</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/rust.jpg" />
+        </juego>
+        <juego titulo="STAR WARS Jedi: Fallen Order" codigoJuego="11"
+            ruta="../../pages/games/starwar.html">
+            <genero>Adventure</genero>
+            <genero>Action</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>49.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/starwars.jpg" />
+        </juego>
+        <juego titulo="Assassins Creed Valhalla" codigoJuego="12"
+            ruta="../../pages/games/valhalla.html">
+            <genero>Acción</genero>
+            <genero>Mundo Abierto</genero>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>49.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/valhalla.jpg" />
+        </juego>
+        <juego titulo="Battlefield 2042" codigoJuego="13"
+            ruta="../../pages/games/battfield2042.html">
+            <genero>Shooter en primera persona</genero>
+            <genero>Multiplayer</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>55.00</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Battlefield2042.jpeg" />
+        </juego>
+        <juego titulo="Call Of Duty:Modern Warfare III" codigoJuego="14"
+            ruta="../../pages/games/codmw3.html">
+            <genero>Shooter en primera persona</genero>
+            <genero>Multiplayer</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <plataforma>PlayStation5</plataforma>
+            <precio>69.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/MWII.jpeg" />
+        </juego>
+        <juego titulo="Dark Souls3" codigoJuego="15" ruta="../../pages/games/ds3.html">
+            <genero>Action</genero>
+            <genero>RPG</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <precio>29.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/darksouls3.jpg" />
+        </juego>
+        <juego titulo="FORTNITE" codigoJuego="16" ruta="../../pages/games/fornite.html">
             <genero>Multiplayer</genero>
             <genero>Shooter</genero>
             <genero>Tercera Persona</genero>
@@ -95,50 +139,16 @@
             <precio>20.00</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/Fortnite.jpeg" />
         </juego>
-        <juego titulo="Gearhead Karting Simulator" ruta="../../pages/games/gearhead.html">
-            <genero>Racing</genero>
-            <plataforma>PC</plataforma>
-            <precio>4.49</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/gearhead.jpg" />
-        </juego>
-        <juego titulo="Limbo" ruta="../../pages/games/limbo.html">
-            <genero>Rompecabezas en 2D</genero>
-            <plataforma>PC</plataforma>
-            <precio>2.49</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/limbo.jpg" />
-        </juego>
-        <juego titulo="Rocket League" ruta="../../pages/games/rocketleague.html">
-            <genero>Racing</genero>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>20.00</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/rocket.jpg" />
-        </juego>
-        <juego titulo="RUST" ruta="../../pages/games/rust.html">
-            <genero>Adventure</genero>
-            <plataforma>PC</plataforma>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>69.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/rust.jpg" />
-        </juego>
-        <juego titulo="STAR WARS Jedi: Fallen Order" ruta="../../pages/games/starwar.html">
-            <genero>Adventure</genero>
-            <genero>Action</genero>
-            <plataforma>PC</plataforma>
-            <plataforma>PlayStation4</plataforma>
-            <plataforma>PlayStation5</plataforma>
-            <precio>49.99</precio>
-            <caratula src="http://ekainminecraft.duckdns.org/fotos/StarWars.jpg" />
-        </juego>
-        <juego titulo="The Elder Scrolls V: Skyrim" ruta="../../pages/games/skyrim.html">
+
+        <juego titulo="The Elder Scrolls V: Skyrim" codigoJuego="17"
+            ruta="../../pages/games/skyrim.html">
             <genero>RPG</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>9.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/skyrim.jpeg" />
         </juego>
-        <juego titulo="Diablo IV" ruta="../../pages/games/diablo4.html">
+        <juego titulo="Diablo IV" codigoJuego="18" ruta="../../pages/games/diablo4.html">
             <genero>Action</genero>
             <genero>RPG</genero>
             <genero>Roguelike</genero>
@@ -146,6 +156,14 @@
             <plataforma>PlayStation4</plataforma>
             <precio>69.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/diabloiv.jpeg" />
+        </juego>
+        <juego titulo="Outer Wilds" codigoJuego="19" ruta="../../pages/games/outerwilds.html">
+            <genero>Aventura</genero>
+            <genero>Exploración</genero>
+            <plataforma>PC</plataforma>
+            <plataforma>PlayStation4</plataforma>
+            <precio>24.99</precio>
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Outer wilds.jpg" />
         </juego>
     </juegos>
     <usuarios>

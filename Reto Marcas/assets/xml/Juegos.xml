@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <juegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <juego id="1">
-        <titulo>Assassin's Creed Valhalla</titulo>
-        <precio>19.99</precio>
-        <rating>4.8</rating>
+    <juego codigoJuego="1">
+        <titulo>Cuphead</titulo>
+        <precio>14.99</precio>
+        <rating>4.9</rating>
         <descripcion>
-            Assassin's Creed Valhalla te sumerge en la épica saga de los asesinos con una nueva y emocionante aventura. En Valhalla, encarnarás a Eivor, un feroz guerrero vikingo en busca de honor y gloria en la Inglaterra del siglo IX. Explora vastos paisajes, forja alianzas estratégicas y lucha en intensas batallas mientras labras tu camino hacia la leyenda.
+            Cuphead es un juego de plataformas y acción inspirado en las animaciones de la década de
+            1930. Embárcate en una aventura desafiante con Cuphead y Mugman mientras enfrentan a una
+            serie de jefes en un mundo vibrante y dibujado a mano. ¡Prepárate para enfrentar
+            desafíos difíciles y disfrutar de un estilo visual único!
         </descripcion>
         <generos>
-            <genero>Aventura</genero>
+            <genero>Plataformas</genero>
             <genero>Acción</genero>
-            <genero>Mundo abierto</genero>
         </generos>
-        <developer>Ubisoft Montreal</developer>
-        <publisher>Epic Games Inc.</publisher>
-        <release_date>10 de noviembre de 2020</release_date>
-        <website>https://www.ubisoft.com/es-mx/game/assassins-creed/valhalla</website>
-        <trailer>http://ekainminecraft.duckdns.org/videos/Valhalla(1).mp4</trailer>
+        <developer>Studio MDHR</developer>
+        <publisher>Studio MDHR</publisher>
+        <release_date>29 de septiembre de 2017</release_date>
+        <website>https://www.studiomdhr.com/cuphead</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Cuphead(1).mp4</trailer>
         <system_requirements>
             <minimal>
-                <system>Windows 7 / 8 / 10 (64-bit)</system>
-                <processor>Core i3-3225 3.3 GHz o equivalente en AMD</processor>
+                <system>Windows 7</system>
+                <processor>Intel Core2 Duo E8400 / AMD Athlon 64 X2 6000+</processor>
                 <memory>4 GB RAM</memory>
-                <graphics>Intel HD 4000 en PC o Intel Iris Pro 5200 o AMD GPU equivalente en Mac</graphics>
-                <storage>42.2 GB available space</storage>
-                <sound>DirectX 11</sound>
+                <graphics>NVIDIA GeForce 9600 GT / AMD Radeon HD 5450</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
             </minimal>
-            <recommended>
-                <system>Windows 7 / 8 / 10 (64-bit)</system>
-                <processor>Core i5-7300U 3.5 GHz o equivalente en AMD</processor>
-                <memory>8 GB RAM</memory>
-                <graphics>Nvidia GTX 660 o AMD Radeon HD 7870 o GPU equivalente (con 2 GB de VRAM)</graphics>
-                <storage>45 GB available space</storage>
-                <sound>DirectX compatible</sound>
-            </recommended>
         </system_requirements>
     </juego>
-    <juego id="2">
+    <juego codigoJuego="2">
         <titulo>Cyberpunk 2077</titulo>
         <precio>29.99</precio>
         <rating>4.5</rating>
         <descripcion>
-            Cyberpunk 2077 es un juego de rol de mundo abierto desarrollado por CD Projekt. Situado en Night City, una megalópolis obsesionada por el poder, el glamour y la modificación corporal, tú asumes el papel de V, un mercenario forajido en busca de un implante único que permite la inmortalidad. Conviértete en un mercenario urbano, mejorando tus habilidades y equipamiento en una aventura llena de acción.
+            Cyberpunk 2077 es un juego de rol de mundo abierto desarrollado por CD Projekt. Situado
+            en Night City, una megalópolis obsesionada por el poder, el glamour y la modificación
+            corporal, tú asumes el papel de V, un mercenario forajido en busca de un implante único
+            que permite la inmortalidad. Conviértete en un mercenario urbano, mejorando tus
+            habilidades y equipamiento en una aventura llena de acción.
         </descripcion>
         <generos>
             <genero>Aventura</genero>
@@ -72,16 +70,394 @@
             </recommended>
         </system_requirements>
     </juego>
-    <juego id="3">
-        <titulo>Battlefield 2042</titulo>
+    <juego codigoJuego="3">
+        <titulo>Dead Island 2</titulo>
         <precio>39.99</precio>
-        <rating>4.7</rating>
+        <rating>4.2</rating>
         <descripcion>
-            Prepárate para el combate en Battlefield 2042, la nueva entrega de la icónica serie de shooters en primera persona. Lucha en vastos campos de batalla con hasta 128 jugadores, utilizando un arsenal de armas futuristas y vehículos de alta tecnología. Domina el campo de batalla y lleva a tu equipo a la victoria en emocionantes partidas multijugador.
+            Dead Island 2 es un juego de acción y supervivencia en un mundo abierto infestado de
+            zombis. Ambientado en el soleado estado de California, te enfrentarás a hordas de no
+            muertos mientras exploras playas, suburbios y ciudades. Reúne recursos, fabrica armas
+            improvisadas y lucha por sobrevivir en este apocalipsis zombi en constante evolución.
         </descripcion>
         <generos>
             <genero>Acción</genero>
-            <genero>Shooter</genero>
+            <genero>Supervivencia</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Sumo Digital</developer>
+        <publisher>Deep Silver</publisher>
+        <release_date>Por anunciar</release_date>
+        <website>https://deadisland2.deepsilver.com/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Deadisland2(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i5-2400 / AMD FX-8320</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 960 / AMD Radeon R9 280</graphics>
+                <storage>60 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i5-4670K / AMD Ryzen 5 1400</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1060 / AMD Radeon RX 570</graphics>
+                <storage>60 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="4">
+        <titulo>Divinity: Original Sin 2</titulo>
+        <precio>39.99</precio>
+        <rating>4.8</rating>
+        <descripcion>
+            Divinity: Original Sin 2 es un juego de rol de fantasía desarrollado por Larian Studios.
+            Sumérgete en un mundo de magia, intriga y combate estratégico mientras viajas por el
+            reino de Rivellon. Crea tu propio personaje, recluta compañeros y toma decisiones que
+            afectarán el destino del mundo en este galardonado RPG de mundo abierto.
+        </descripcion>
+        <generos>
+            <genero>Rol</genero>
+            <genero>Aventura</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Larian Studios</developer>
+        <publisher>Larian Studios</publisher>
+        <release_date>14 de septiembre de 2017</release_date>
+        <website>https://divinity.game/es/divinity-original-sin-2</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Divinityoriginalsin%202%20Trailer(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i5 o equivalente</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 550 / AMD Radeon HD 7770</graphics>
+                <storage>60 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i7 o equivalente</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 770 / AMD R9 280</graphics>
+                <storage>60 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="5">
+        <titulo>Extreme</titulo>
+        <precio>19.99</precio>
+        <rating>4.6</rating>
+        <descripcion>
+            Extreme es un juego de carreras extremas desarrollado por Axyos Games. Domina pistas
+            peligrosas y desafiantes en vehículos todoterreno, motocicletas y más. Con gráficos
+            realistas y una física precisa, experimentarás la adrenalina de la velocidad en entornos
+            impresionantes. ¿Tienes lo necesario para ser el rey de las carreras extremas?
+        </descripcion>
+        <generos>
+            <genero>Carreras</genero>
+            <genero>Deportes</genero>
+            <genero>Acción</genero>
+        </generos>
+        <developer>Axyos Games</developer>
+        <publisher>Axyos Games</publisher>
+        <release_date>Por anunciar</release_date>
+        <website>https://www.axyosgames.com/extreme</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Extreme(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10</system>
+                <processor>Intel Core i3 / AMD Ryzen 3</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 660 / AMD Radeon HD 7850</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10</system>
+                <processor>Intel Core i5 / AMD Ryzen 5</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 970 / AMD Radeon RX 570</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="6">
+        <titulo>Far Cry 6</titulo>
+        <precio>49.99</precio>
+        <rating>4.7</rating>
+        <descripcion>
+            Far Cry 6 es un juego de acción y aventura en primera persona desarrollado por Ubisoft.
+            Ambientado en el ficticio país caribeño de Yara, te enfrentarás al régimen opresivo de
+            Antón Castillo mientras lideras una revolución contra su tiranía. Explora un vasto mundo
+            abierto, recluta aliados y libera a la nación de la opresión en este emocionante
+            capítulo de la serie Far Cry.
+        </descripcion>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Aventura</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Ubisoft Toronto</developer>
+        <publisher>Ubisoft</publisher>
+        <release_date>7 de octubre de 2021</release_date>
+        <website>https://www.ubisoft.com/es-es/game/far-cry-6</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Farcry(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i5-4460 / AMD Ryzen 3 1200</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 960 / AMD R9 380</graphics>
+                <storage>60 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i7-6700 / AMD Ryzen 5 3600X</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1080 / AMD RX 5700 XT</graphics>
+                <storage>60 GB available space (SSD)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="7">
+        <titulo>Gearhead</titulo>
+        <precio>24.99</precio>
+        <rating>4.4</rating>
+        <descripcion>
+            Gearhead es un juego de acción y sigilo desarrollado por Stealth Studios. Sumérgete en
+            el mundo del espionaje y la intriga mientras asumes el papel de un agente secreto
+            altamente entrenado. Utiliza tu ingenio, tus habilidades y una variedad de gadgets para
+            completar misiones peligrosas en entornos hostiles. ¿Tienes lo necesario para ser un
+            verdadero Gearhead?
+        </descripcion>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Sigilo</genero>
+            <genero>Aventura</genero>
+        </generos>
+        <developer>Stealth Studios</developer>
+        <publisher>Stealth Studios</publisher>
+        <release_date>Por anunciar</release_date>
+        <website>https://gearheadgame.com/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Gearhead(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i5 / AMD Ryzen 5</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 960 / AMD Radeon R9 280</graphics>
+                <storage>50 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i7 / AMD Ryzen 7</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1060 / AMD Radeon RX 580</graphics>
+                <storage>50 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="8">
+        <titulo>Limbo</titulo>
+        <precio>9.99</precio>
+        <rating>4.8</rating>
+        <descripcion>
+            Limbo es un juego de plataformas y rompecabezas desarrollado por Playdead. Embárcate en
+            una aventura oscura y misteriosa mientras guías a un niño a través de un paisaje sombrío
+            en busca de su hermana perdida. Con un estilo visual único y desafíos ingeniosos, Limbo
+            te sumergirá en un mundo surrealista lleno de peligros y maravillas.
+        </descripcion>
+        <generos>
+            <genero>Plataformas</genero>
+            <genero>Rompecabezas</genero>
+        </generos>
+        <developer>Playdead</developer>
+        <publisher>Playdead</publisher>
+        <release_date>2 de agosto de 2011</release_date>
+        <website>https://playdead.com/games/limbo/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Limbo(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows XP / Vista / 7</system>
+                <processor>2 GHz</processor>
+                <memory>512 MB RAM</memory>
+                <graphics>5 años o más de antigüedad con soporte OpenGL 2.0</graphics>
+                <storage>150 MB available space</storage>
+                <sound>Compatible con DirectX 9.0c</sound>
+            </minimal>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="9">
+        <titulo>Rocket League</titulo>
+        <precio>19.99</precio>
+        <rating>4.7</rating>
+        <descripcion>
+            Rocket League es un juego de deportes y conducción desarrollado por Psyonix. Combina la
+            emoción del fútbol con la frenética acción de los coches en una experiencia única y
+            adictiva. Únete a partidas multijugador en línea, personaliza tu vehículo y compite en
+            emocionantes encuentros para convertirte en un campeón de Rocket League.
+        </descripcion>
+        <generos>
+            <genero>Deportes</genero>
+            <genero>Acción</genero>
+        </generos>
+        <developer>Psyonix</developer>
+        <publisher>Psyonix</publisher>
+        <release_date>7 de julio de 2015</release_date>
+        <website>https://www.rocketleague.com/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Rocketleague(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 (64-bit)</system>
+                <processor>2.5 GHz Dual core</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce 760 / AMD Radeon R7 270X</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="10">
+        <titulo>Rust</titulo>
+        <precio>34.99</precio>
+        <rating>4.6</rating>
+        <descripcion>
+            Rust es un juego de supervivencia en línea desarrollado por Facepunch Studios. Despierta
+            en una isla desierta, desnudo y desarmado, y lucha por sobrevivir en un mundo hostil
+            lleno de otros jugadores y peligros naturales. Reúne recursos, construye refugios, forma
+            alianzas y lucha por la supremacía en este juego de sandbox implacable.
+        </descripcion>
+        <generos>
+            <genero>Supervivencia</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Facepunch Studios</developer>
+        <publisher>Facepunch Studios</publisher>
+        <release_date>8 de febrero de 2018</release_date>
+        <website>https://playrust.com/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Rust(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 (64-bit)</system>
+                <processor>Intel Core i7-3770 / AMD FX-9590</processor>
+                <memory>10 GB RAM</memory>
+                <graphics>NVIDIA GTX 670 2GB / AMD Radeon R9 280</graphics>
+                <storage>20 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i7-4690K / AMD Ryzen 5 1600</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GTX 980 / AMD Radeon R9 Fury</graphics>
+                <storage>20 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="11">
+        <titulo>Star Wars Jedi: Fallen Order</titulo>
+        <precio>49.99</precio>
+        <rating>4.7</rating>
+        <descripcion>
+            Star Wars Jedi: Fallen Order es un juego de acción y aventura desarrollado por Respawn
+            Entertainment. Ambientado en el universo de Star Wars después de los eventos de La
+            venganza de los Sith, sigues la historia de Cal Kestis, un joven Padawan que escapa de
+            la purga Jedi. Únete a la Resistencia y domina la Fuerza en tu lucha contra el Imperio
+            en este emocionante viaje.
+        </descripcion>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Aventura</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Respawn Entertainment</developer>
+        <publisher>Electronic Arts</publisher>
+        <release_date>15 de noviembre de 2019</release_date>
+        <website>https://www.ea.com/es-es/games/starwars/jedi-fallen-order</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Starwars(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i3-3220 / AMD FX-6100</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GTX 650 / AMD Radeon HD 7750</graphics>
+                <storage>55 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i7-6700K / AMD Ryzen 7 1700</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GTX 1070 / AMD Radeon RX Vega 56</graphics>
+                <storage>55 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="12">
+        <titulo>Assassin's Creed Valhalla</titulo>
+        <precio>59.99</precio>
+        <rating>4.8</rating>
+        <descripcion>
+            Assassin's Creed Valhalla es un juego de acción y aventura desarrollado por Ubisoft
+            Montreal. Sumérgete en la era de los vikingos y lidera a tu clan en una búsqueda épica
+            por la gloria y la riqueza. Explora un mundo abierto impresionante, conquista nuevos
+            territorios y forja tu propio camino en la historia en este capítulo legendario de la
+            serie Assassin's Creed.
+        </descripcion>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Aventura</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Ubisoft Montreal</developer>
+        <publisher>Ubisoft</publisher>
+        <release_date>10 de noviembre de 2020</release_date>
+        <website>https://www.ubisoft.com/es-es/game/assassins-creed/valhalla</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Valhalla(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 10 (64-bit)</system>
+                <processor>AMD Ryzen 3 1200 / Intel Core i5-4460</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>AMD R9 380 / NVIDIA GeForce GTX 960</graphics>
+                <storage>50 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>AMD Ryzen 5 1600 / Intel Core i7-4790</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>AMD RX 5700 / NVIDIA GeForce GTX 1080</graphics>
+                <storage>50 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="13">
+        <titulo>Battlefield 2042</titulo>
+        <precio>59.99</precio>
+        <rating>4.6</rating>
+        <descripcion>
+            Battlefield 2042 es un juego de disparos en primera persona desarrollado por DICE.
+            Ambientado en un futuro próximo, te sumergirás en intensas batallas a gran escala en un
+            mundo al borde del colapso. Únete a fuerzas militares y lucha por la supremacía en mapas
+            dinámicos y llenos de acción en este emocionante capítulo de la serie Battlefield.
+        </descripcion>
+        <generos>
+            <genero>Disparos</genero>
+            <genero>Acción</genero>
             <genero>Mundo abierto</genero>
         </generos>
         <developer>DICE</developer>
@@ -92,20 +468,243 @@
         <system_requirements>
             <minimal>
                 <system>Windows 10 (64-bit)</system>
-                <processor>Core i5 6600K / AMD FX-8350</processor>
+                <processor>Intel Core i5 6600K / AMD FX-8350</processor>
                 <memory>8 GB RAM</memory>
-                <graphics>NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560</graphics>
-                <storage>50 GB available space</storage>
+                <graphics>NVIDIA GeForce GTX 1050 / AMD Radeon RX 560</graphics>
+                <storage>100 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Intel Core i7 4790 / AMD Ryzen 5 3600</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1060 / AMD Radeon RX 6600 XT</graphics>
+                <storage>100 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="14">
+        <titulo>Call of Duty: Modern Warfare 3</titulo>
+        <precio>29.99</precio>
+        <rating>4.5</rating>
+        <descripcion>
+            Call of Duty: Modern Warfare 3 es un juego de disparos en primera persona desarrollado
+            por Infinity Ward. Ambientado en un mundo al borde del colapso, te enfrentarás a una
+            guerra total como parte de las fuerzas especiales de élite. Únete a la batalla y lucha
+            por la supervivencia en una campaña épica y emocionante.
+        </descripcion>
+        <generos>
+            <genero>Disparos</genero>
+            <genero>Acción</genero>
+        </generos>
+        <developer>Infinity Ward</developer>
+        <publisher>Activision</publisher>
+        <release_date>8 de noviembre de 2011</release_date>
+        <website>https://www.callofduty.com/es/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Call%20Of%20Duty%20Mwiii.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows XP / Vista / 7</system>
+                <processor>Intel Core 2 Duo E6600 / AMD Phenom X3 8750</processor>
+                <memory>2 GB RAM</memory>
+                <graphics>NVIDIA GeForce 8600GT / ATI Radeon X1950 Pro</graphics>
+                <storage>16 GB available space</storage>
+                <sound>DirectX 9.0c</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 (64-bit)</system>
+                <processor>Intel Core 2 Duo E6600 / AMD Phenom X3 8750</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 550 Ti / ATI Radeon HD 5870</graphics>
+                <storage>16 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="15">
+        <titulo>Dark Souls III</titulo>
+        <precio>49.99</precio>
+        <rating>4.9</rating>
+        <descripcion>
+            Dark Souls III es un juego de rol y acción desarrollado por FromSoftware. Sumérgete en
+            un mundo oscuro y desolado lleno de monstruos despiadados y desafíos mortales. Descubre
+            secretos ocultos, derrota a jefes poderosos y forja tu propio destino en esta conclusión
+            épica de la trilogía Dark Souls.
+        </descripcion>
+        <generos>
+            <genero>Rol</genero>
+            <genero>Acción</genero>
+        </generos>
+        <developer>FromSoftware</developer>
+        <publisher>Bandai Namco Entertainment</publisher>
+        <release_date>12 de abril de 2016</release_date>
+        <website>https://www.bandainamcoent.com/es-mx/games/dark-souls-iii</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Dark%20Souls%20Iii.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 (64-bit)</system>
+                <processor>Intel Core i3-2100 / AMD FX-6300</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 750 Ti / ATI Radeon HD 7950</graphics>
+                <storage>25 GB available space</storage>
                 <sound>DirectX 11</sound>
             </minimal>
             <recommended>
                 <system>Windows 10 (64-bit)</system>
-                <processor>Core i7 4790 / Ryzen 5 3600</processor>
-                <memory>16 GB RAM</memory>
-                <graphics>NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT</graphics>
-                <storage>50 GB available space (SSD recommended)</storage>
-                <sound>DirectX 12</sound>
+                <processor>Intel Core i7-3770 / AMD FX-8350</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 970 / ATI Radeon R9 series</graphics>
+                <storage>25 GB available space</storage>
+                <sound>DirectX 11</sound>
             </recommended>
         </system_requirements>
     </juego>
+    <juego codigoJuego="16">
+        <titulo>Fortnite</titulo>
+        <precio>Gratis</precio>
+        <rating>4.5</rating>
+        <descripcion>
+            Fortnite es un juego de supervivencia y construcción desarrollado por Epic Games. Únete
+            a una partida Battle Royale y lucha por ser el último en pie, construyendo estructuras y
+            utilizando habilidades únicas para superar a tus oponentes. Con constantes
+            actualizaciones y eventos en vivo, Fortnite ofrece una experiencia en constante
+            evolución para jugadores de todas las edades.
+        </descripcion>
+        <generos>
+            <genero>Supervivencia</genero>
+            <genero>Acción</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Epic Games</developer>
+        <publisher>Epic Games</publisher>
+        <release_date>25 de julio de 2017</release_date>
+        <website>https://www.epicgames.com/fortnite/es-ES/home</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Fortnite.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i3 / AMD Ryzen 3</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>Intel HD 4000 / AMD Radeon HD 7870</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Intel Core i5 / AMD Ryzen 5</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GTX 660 / AMD Radeon HD 7870</graphics>
+                <storage>20 GB available space (SSD recommended)</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="17">
+        <titulo>The Elder Scrolls V: Skyrim</titulo>
+        <precio>29.99</precio>
+        <rating>4.9</rating>
+        <descripcion>
+            The Elder Scrolls V: Skyrim es un juego de rol de mundo abierto desarrollado por
+            Bethesda Game Studios. Explora la vasta región de Skyrim, lucha contra dragones
+            legendarios y forja tu destino como el Sangre de Dragón. Con una libertad sin igual para
+            explorar y personalizar tu personaje, Skyrim te sumergirá en una experiencia épica que
+            perdurará por generaciones.
+        </descripcion>
+        <generos>
+            <genero>Rol</genero>
+            <genero>Aventura</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Bethesda Game Studios</developer>
+        <publisher>Bethesda Softworks</publisher>
+        <release_date>11 de noviembre de 2011</release_date>
+        <website>https://elderscrolls.bethesda.net/skyrim/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Skyrim.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8.1 / 10 (64-bit)</system>
+                <processor>Intel Core i5-750 / AMD Phenom II X4-945</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GTX 470 1GB / AMD HD 7870 2GB</graphics>
+                <storage>12 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 / 8.1 / 10 (64-bit)</system>
+                <processor>Intel Core i5-2400 / AMD FX-8320</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GTX 780 3GB / AMD R9 290 4GB</graphics>
+                <storage>12 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego codigoJuego="18">
+        <titulo>Diablo IV</titulo>
+        <precio>59.99</precio>
+        <rating>4.8</rating>
+        <descripcion>
+            Diablo IV es un juego de rol de acción desarrollado por Blizzard Entertainment.
+            Sumérgete en un oscuro mundo de fantasía donde lucharás contra hordas de demonios,
+            explorarás vastas tierras y desentrañarás los misterios de la corrupción. Con gráficos
+            impresionantes y una jugabilidad envolvente, Diablo IV promete ser una experiencia épica
+            para los amantes del género.
+        </descripcion>
+        <generos>
+            <genero>Rol</genero>
+            <genero>Acción</genero>
+            <genero>Aventura</genero>
+        </generos>
+        <developer>Blizzard Entertainment</developer>
+        <publisher>Blizzard Entertainment</publisher>
+        <release_date>Por anunciar</release_date>
+        <website>https://diablo4.blizzard.com/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Diablo 4.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 10</system>
+                <processor>Intel Core i5-4590 / AMD FX 8320</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 960 / AMD Radeon R9 280</graphics>
+                <storage>50 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+        </system_requirements>
+    </juego>
+        <juego codigoJuego="19">
+            <titulo>Outer Wilds</titulo>
+            <precio>24.99</precio>
+            <rating>4.6</rating>
+            <descripcion>
+                The Outer Wilds es un juego de aventuras desarrollado por Mobius Digital. Embárcate
+                en un viaje cósmico para descubrir los secretos de un sistema solar en constante
+                cambio. Explora planetas únicos, descubre ruinas antiguas y desentraña los misterios
+                de un universo en expansión. Con una narrativa cautivadora y una atmósfera única,
+                The Outer Wilds te llevará a lugares que nunca imaginaste.
+            </descripcion>
+            <generos>
+                <genero>Aventura</genero>
+                <genero>Exploración</genero>
+                <genero>Mundo abierto</genero>
+            </generos>
+            <developer>Mobius Digital</developer>
+            <publisher>Annapurna Interactive</publisher>
+            <release_date>30 de mayo de 2019</release_date>
+            <website>https://www.mobiusdigitalgames.com/outer-wilds</website>
+            <trailer>http://ekainminecraft.duckdns.org/videos/Outer Wilds.mp4</trailer>
+            <system_requirements>
+                <minimal>
+                    <system>Windows 7 (64-bit)</system>
+                    <processor>Intel Core i5-2300 / AMD FX-4100</processor>
+                    <memory>4 GB RAM</memory>
+                    <graphics>NVIDIA GeForce GTX 560 / AMD Radeon HD 6870</graphics>
+                    <storage>8 GB available space</storage>
+                    <sound>DirectX Compatible</sound>
+                </minimal>
+            </system_requirements>
+       
+
+    </juego>
+
 </juegos>
