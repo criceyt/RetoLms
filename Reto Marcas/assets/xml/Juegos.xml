@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <juego id="1">
+        <titulo>Assassin's Creed Valhalla</titulo>
+        <precio>19.99</precio>
+        <rating>4.8</rating>
+        <descripcion>
+            Assassin's Creed Valhalla te sumerge en la épica saga de los asesinos con una nueva y emocionante aventura. En Valhalla, encarnarás a Eivor, un feroz guerrero vikingo en busca de honor y gloria en la Inglaterra del siglo IX. Explora vastos paisajes, forja alianzas estratégicas y lucha en intensas batallas mientras labras tu camino hacia la leyenda.
+        </descripcion>
+        <generos>
+            <genero>Aventura</genero>
+            <genero>Acción</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Ubisoft Montreal</developer>
+        <publisher>Epic Games Inc.</publisher>
+        <release_date>10 de noviembre de 2020</release_date>
+        <website>https://www.ubisoft.com/es-mx/game/assassins-creed/valhalla</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Valhalla(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Core i3-3225 3.3 GHz o equivalente en AMD</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>Intel HD 4000 en PC o Intel Iris Pro 5200 o AMD GPU equivalente en Mac</graphics>
+                <storage>42.2 GB available space</storage>
+                <sound>DirectX 11</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 7 / 8 / 10 (64-bit)</system>
+                <processor>Core i5-7300U 3.5 GHz o equivalente en AMD</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>Nvidia GTX 660 o AMD Radeon HD 7870 o GPU equivalente (con 2 GB de VRAM)</graphics>
+                <storage>45 GB available space</storage>
+                <sound>DirectX compatible</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego id="2">
+        <titulo>Cyberpunk 2077</titulo>
+        <precio>29.99</precio>
+        <rating>4.5</rating>
+        <descripcion>
+            Cyberpunk 2077 es un juego de rol de mundo abierto desarrollado por CD Projekt. Situado en Night City, una megalópolis obsesionada por el poder, el glamour y la modificación corporal, tú asumes el papel de V, un mercenario forajido en busca de un implante único que permite la inmortalidad. Conviértete en un mercenario urbano, mejorando tus habilidades y equipamiento en una aventura llena de acción.
+        </descripcion>
+        <generos>
+            <genero>Aventura</genero>
+            <genero>Acción</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>CD Projekt</developer>
+        <publisher>CD Projekt</publisher>
+        <release_date>10 de diciembre de 2020</release_date>
+        <website>https://www.cyberpunk.net/es/es/</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Cyberpunk(1).mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 / 10 (64-bit)</system>
+                <processor>Core i5-3570K / AMD FX-8310</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 780 / AMD Radeon RX 470</graphics>
+                <storage>70 GB available space</storage>
+                <sound>DirectX 12</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Core i7-4790 / AMD Ryzen 3 3200G</processor>
+                <memory>12 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1060 6 GB / AMD Radeon R9 Fury</graphics>
+                <storage>70 GB available space (SSD recommended)</storage>
+                <sound>DirectX 12</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+    <juego id="3">
+        <titulo>Battlefield 2042</titulo>
+        <precio>39.99</precio>
+        <rating>4.7</rating>
+        <descripcion>
+            Prepárate para el combate en Battlefield 2042, la nueva entrega de la icónica serie de shooters en primera persona. Lucha en vastos campos de batalla con hasta 128 jugadores, utilizando un arsenal de armas futuristas y vehículos de alta tecnología. Domina el campo de batalla y lleva a tu equipo a la victoria en emocionantes partidas multijugador.
+        </descripcion>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Shooter</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>DICE</developer>
+        <publisher>Electronic Arts</publisher>
+        <release_date>19 de noviembre de 2021</release_date>
+        <website>https://www.ea.com/games/battlefield/battlefield-2042</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Battlefield%202042.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Core i5 6600K / AMD FX-8350</processor>
+                <memory>8 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560</graphics>
+                <storage>50 GB available space</storage>
+                <sound>DirectX 11</sound>
+            </minimal>
+            <recommended>
+                <system>Windows 10 (64-bit)</system>
+                <processor>Core i7 4790 / Ryzen 5 3600</processor>
+                <memory>16 GB RAM</memory>
+                <graphics>NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT</graphics>
+                <storage>50 GB available space (SSD recommended)</storage>
+                <sound>DirectX 12</sound>
+            </recommended>
+        </system_requirements>
+    </juego>
+</juegos>

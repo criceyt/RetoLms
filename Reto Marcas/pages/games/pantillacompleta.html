@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -8,17 +7,27 @@
     <title>Legends Store - Game Store</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../../assets/css/default.css" />
-    <link rel="stylesheet" href="../../assets/css/library.css" />
-
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/default.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
+    <?php
+    // Incluir los datos del juego desde otro archivo PHP
+    include 'InfoJuego.php';
+
+    // Asignar los valores a variables
+    $genre = $juego['genre'];
+    $developer = $juego['developer'];
+    $publisher = $juego['publisher'];
+    $releaseDate = $juego['release_date'];
+    $websiteURL = $juego['website'];
+    ?>
+    <!-- Section Container -->
     <div class="container">
-        <!-- Sidebar Section -->
-        <div class="sidebar">
+        <nav>
             <div class="logo">
                 <i class="fab fa-playstation"></i>
             </div>
@@ -88,82 +97,84 @@
                     <span><a href="../../captchaSing.html">Registrarse</a></span>
                 </li>
             </ul>
-        </div>
-        <!-- ./Sidebar Section -->
-
-
-        <!-- Content Section -->
-        <div class="content">
-            <!-- Header Section -->
-            <header>
-                <div class="search">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Search...">
+        </nav>
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="header">
+                <div class="back">
+                    <a href="#" onclick="history.go(-1)"><i class="fas fa-arrow-left"></i> Go back to store</a>
                 </div>
-
-                <nav>
-                    <a href="../categories/all.php" class="active">All</a>
-                    <a href="../categories/action.html">Action</a>
-                    <a href="../categories/adventure.html">Adventure</a>
-                    <a href="../categories/indie.html">Indie</a>
-                    <a href="../categories/multiplayer.html">Multiplayer</a>
-                    <a href="../categories/racing.html">Racing</a>
-                    <a href="../categories/rpg.html">RPG</a>
-                    <i class="fas fa-bars" id="hamburger"></i>
-                </nav>
-            </header>
-            <!-- ./Header Section -->
-
-            <div class="main-flex">
-
-                <main>
-                <?php
-try {
-    // Importar la clase Session de BaseX
-    require_once '"../../../../basex/BDConexion.php"';
-    $session = new Session();        
-    // open database
-    $session->execute("open RETO");
-    // query
-    $xmlStr = $session->execute("xquery /");
-    // close session
-    $session->close();
-             
-    $xml = new DOMDocument;           
-    $xml->loadXML($xmlStr);
-
-    // Cargar el archivo XSLT
-    $xsl = new DOMDocument;
-    $xsl->load('../../assets/xslt/all.xslt');
-
-    // Crear un procesador XSLT
-    $processor = new XSLTProcessor();
-    $processor->importStyleSheet($xsl);
-
-    // Aplicar la transformación XSLT al XML
-    $transformedXML = $processor->transformToXML($xml);
-
-    // Imprimir el XML transformado
-    echo $transformedXML;
-} catch (Exception $e) {
-    // Manejar cualquier excepción
-    echo "Error: " . $e->getMessage();
-}
-?>
-                </main>
-
+                <h2><?php echo $gameTitle; ?></h2>
+                <button>$<?php echo $price; ?></button>
+                <a href=""><i class="fas fa-heart"></i> Add to wishlist</a>
             </div>
+            <div class="container-video">
+                <video muted loop playsinline autoplay>
+                    <source src="<?php echo $videoSource; ?>" type="video/mp4">
+                </video>
+            </div>
+            <!-- ./End -->
+
+            <!-- About Section -->
+            <section class="about">
+                <div class="left">
+                    <h4>Rating <?php echo $rating; ?></h4>
+                    <h2>About the game</h2>
+                    <p>
+                        <?php echo $gameDescription; ?>
+                    </p>
+                </div>
+                <div class="right">
+                    <table>
+                        <tr>
+                            <td><span>Genre:</span></td>
+                            <td><?php echo $genre; ?></td>
+                        </tr>
+                        <tr>
+                            <td><span>Developer:</span></td>
+                            <td><?php echo $developer; ?></td>
+                        </tr>
+                        <tr>
+                            <td><span>Publisher:</span></td>
+                            <td><?php echo $publisher; ?></td>
+                        </tr>
+                        <tr>
+                            <td><span>Release date:</span></td>
+                            <td><?php echo $releaseDate; ?></td>
+                        </tr>
+                        <tr>
+                            <td><span>Website:</span></td>
+                            <td><a href="<?php echo $websiteURL; ?>" target="_blank">Limbo</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <!-- ./About Section -->
+
+            <!-- System Section -->
+            <section class="system">
+                <div class="left">
+                    <div class="title">
+                        <h2>System requirements</h2>
+                        <!-- Add PHP variables for system requirements if necessary -->
+                    </div>
+                    <h3>Minimal system requirements:</h3>
+                    <table>
+                        <!-- Add PHP variables for minimal system requirements if necessary -->
+                    </table>
+                </div>
+                <div class="right">
+                    <h3>Recommended system requirements:</h3>
+                    <table>
+                        <!-- Add PHP variables for recommended system requirements if necessary -->
+                    </table>
+                </div>
+            </section>
+            <!-- ./System Section -->
         </div>
-        <!-- ./Content Section -->
-
-        <!-- Footer Section -->
-        <footer>
-            <!-- Footer content -->
-        </footer>
-        <!-- ./Footer Section -->
+        <!-- ./Right Container -->
     </div>
-
-
+    <!-- ./Section Container -->
 </body>
 
 </html>

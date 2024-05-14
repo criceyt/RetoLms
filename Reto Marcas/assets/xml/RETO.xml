@@ -2,30 +2,30 @@
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="RETO.xsd">
     <juegos>
-        <juego titulo="Assassins Creed Valhalla" ruta="../../pages/games/valhalla.html">
+        <juego titulo="Assassins Creed Valhalla" id="1" ruta="../../pages/games/valhalla.html">
             <genero>Acción</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>49.99</precio>
-            <caratula src="../../assets/images/games/valhalla.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/valhalla.jpg" />
         </juego>
-        <juego titulo="Cyberpunk 2077" ruta="../../pages/games/ciberpunk.html">
+        <juego titulo="Cyberpunk 2077" id="2" ruta="../../pages/games/ciberpunk.html">
             <genero>Rol</genero>
             <genero>Acción</genero>
             <genero>Mundo abierto</genero>
             <plataforma>PlayStation4</plataforma>
             <precio>14.99</precio>
-            <caratula src="../../assets/images/games/Cyberpunk.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Cyberpunk.jpg" />
         </juego>
-        <juego titulo="Battlefield 2042" ruta="../../pages/games/battfield2042.html">
+        <juego titulo="Battlefield 2042" id="3" ruta="../../pages/games/battfield2042.html">
             <genero>Shooter en primera persona</genero>
             <genero>Multiplayer</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>55.00</precio>
-            <caratula src="../../assets/images/games/Battlefield2042.jpeg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Battlefield2042.jpeg" />
         </juego>
         <juego titulo="Call Of Duty:Modern Warfare III" ruta="../../pages/games/codmw3.html">
             <genero>Shooter en primera persona</genero>
@@ -34,13 +34,13 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>69.99</precio>
-            <caratula src="../../assets/images/games/MWII.jpeg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/MWII.jpeg" />
         </juego>
         <juego titulo="Dead Island 2" ruta="../../pages/games/deadisland.html">
             <genero>Adventure</genero>
             <plataforma>PlayStation5</plataforma>
             <precio>69.99</precio>
-            <caratula src="../../assets/images/games/deadisland.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/deadisland.jpg" />
         </juego>
         <juego titulo="Cuphead" ruta="../../pages/games/cuphead.html">
             <genero>Acción</genero>
@@ -49,7 +49,7 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>14.99</precio>
-            <caratula src="../../assets/images/games/cuphead.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/cuphead.jpg" />
         </juego>
         <juego titulo="Divinity: Original Sin 2"
             ruta="../../pages/games/Divinity Original Sin 2.html">
@@ -60,7 +60,7 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>78.99</precio>
-            <caratula src="../../assets/images/games/divinity.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/divinity.jpg" />
         </juego>
         <juego titulo="Dark Souls3" ruta="../../pages/games/ds3.html">
             <genero>Action</genero>
@@ -68,14 +68,14 @@
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>29.99</precio>
-            <caratula src="../../assets/images/games/darksouls3.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/darksouls3.jpg" />
         </juego>
         <juego titulo="Extreme Offroad Racing" ruta="../../pages/games/extreme.html">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>8.99</precio>
-            <caratula src="../../assets/images/games/extreme.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/extreme.jpg" />
         </juego>
         <juego titulo="Far Cry 5" ruta="../../pages/games/farcry5.html">
             <genero>Shooter en primera persona</genero>
@@ -83,7 +83,7 @@
             <plataforma>PC</plataforma>
             <plataforma>PlayStarion5</plataforma>
             <precio>29.99</precio>
-            <caratula src="../../assets/images/games/FarCry5.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/FarCry5.jpg" />
         </juego>
         <juego titulo="FORTNITE" ruta="../../pages/games/fornite.html">
             <genero>Multiplayer</genero>
@@ -93,26 +93,26 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>20.00</precio>
-            <caratula src="../../assets/images/games/Fortnite.jpeg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/Fortnite.jpeg" />
         </juego>
         <juego titulo="Gearhead Karting Simulator" ruta="../../pages/games/gearhead.html">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <precio>4.49</precio>
-            <caratula src="../../assets/images/games/gearhead.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/gearhead.jpg" />
         </juego>
         <juego titulo="Limbo" ruta="../../pages/games/limbo.html">
             <genero>Rompecabezas en 2D</genero>
             <plataforma>PC</plataforma>
             <precio>2.49</precio>
-            <caratula src="../../assets/images/games/limbo.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/limbo.jpg" />
         </juego>
         <juego titulo="Rocket League" ruta="../../pages/games/rocketleague.html">
             <genero>Racing</genero>
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>20.00</precio>
-            <caratula src="../../assets/images/games/rocket.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/rocket.jpg" />
         </juego>
         <juego titulo="RUST" ruta="../../pages/games/rust.html">
             <genero>Adventure</genero>
@@ -120,7 +120,7 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>69.99</precio>
-            <caratula src="../../assets/images/games/rust.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/rust.jpg" />
         </juego>
         <juego titulo="STAR WARS Jedi: Fallen Order" ruta="../../pages/games/starwar.html">
             <genero>Adventure</genero>
@@ -129,14 +129,14 @@
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>49.99</precio>
-            <caratula src="../../assets/images/games/StarWars.jpg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/StarWars.jpg" />
         </juego>
         <juego titulo="The Elder Scrolls V: Skyrim" ruta="../../pages/games/skyrim.html">
             <genero>RPG</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>9.99</precio>
-            <caratula src="../../assets/images/games/skyrim.jpeg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/skyrim.jpeg" />
         </juego>
         <juego titulo="Diablo IV" ruta="../../pages/games/diablo4.html">
             <genero>Action</genero>
@@ -145,7 +145,7 @@
             <genero>RPG</genero>
             <plataforma>PlayStation4</plataforma>
             <precio>69.99</precio>
-            <caratula src="../../assets/images/games/diabloiv.jpeg" />
+            <caratula src="http://ekainminecraft.duckdns.org/fotos/diabloiv.jpeg" />
         </juego>
     </juegos>
     <usuarios>

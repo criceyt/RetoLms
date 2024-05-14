@@ -89,38 +89,52 @@
             <th>Plataforma</th>
             <th>Precio</th>
           </tr>
-          <xsl:for-each select="document('../../assets/xml/Reto.xml')/tienda/juegos/juego">
-            <xsl:variable name="titulo" select="@titulo" />
-            <xsl:variable name="ruta" select="@ruta" />
-            <tr>
-              <td>
-                <a href="{$ruta}">
-                  <img src="{caratula/@src}" alt="{@titulo}" />
-                </a>
-              </td>
-              <td>
-                <a href="{$ruta}">
-                  <xsl:value-of select="$titulo" />
-                </a>
-              </td>
-              <td>
-                <xsl:for-each select="genero">
-                  <xsl:value-of select="." />
-                  <xsl:if test="position() != last()">, </xsl:if>
-                </xsl:for-each>
-              </td>
-              <td>
-                <xsl:for-each select="plataforma">
-                  <xsl:value-of select="." />
-                  <xsl:if test="position() != last()">, </xsl:if>
-                </xsl:for-each>
-              </td>
-              <td>
-                <xsl:value-of select="precio" />
-              </td>
-            </tr>
-          </xsl:for-each>
-        </table>
+          <xsl:for-each select="tienda/juegos/juego">
+          <xsl:variable name="titulo" select="@titulo" />
+          <xsl:variable name="id" select="@id" />
+          <tr>
+            <td>
+              <a href="{concat('../../pages/games/InfoJuego.php?id=', $id)}">
+                <img src="{caratula/@src}" alt="{$titulo}" />
+              </a>
+            </td>
+            <td>
+              <a href="{concat('../../pages/games/InfoJuego.php?id=', $id)}">
+                <xsl:value-of select="$titulo" />
+              </a>
+            </td>
+            <td>
+              <xsl:for-each select="genero">
+                <xsl:value-of select="." />
+                <xsl:if test="position() != last()">, </xsl:if>
+              </xsl:for-each>
+            </td>
+            <td>
+              <xsl:for-each select="plataforma">
+                <xsl:value-of select="." />
+                <xsl:if test="position() != last()">, </xsl:if>
+              </xsl:for-each>
+            </td>
+            <td>
+              <xsl:value-of select="precio" />
+            </td>
+          </tr>
+        </xsl:for-each>
+      </table>
+        <script>
+          <![CDATA[
+            // Obtiene todos los elementos con la clase 'juego'
+            var juegos = document.querySelectorAll('.juego');
+
+            // Agrega un event listener a cada juego
+            juegos.forEach(function(juego) {
+              juego.addEventListener('click', function() {
+                var gameId = juego.getAttribute('id'); // Obtiene el id del juego
+                window.location.href = '../../pages/games/InfoJuego.php?id=' + id; // Redirige a detalles_juego.php con el id del juego
+              });
+            });
+          ]]>
+        </script>
       </body>
     </html>
   </xsl:template>
