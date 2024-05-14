@@ -121,21 +121,8 @@
           </tr>
         </xsl:for-each>
       </table>
-        <script>
-          <![CDATA[
-            // Obtiene todos los elementos con la clase 'juego'
-            var juegos = document.querySelectorAll('.juego');
-
-            // Agrega un event listener a cada juego
-            juegos.forEach(function(juego) {
-              juego.addEventListener('click', function() {
-                var gameId = juego.getAttribute('id'); // Obtiene el id del juego
-                window.location.href = '../../pages/games/InfoJuego.php?id=' + id; // Redirige a detalles_juego.php con el id del juego
-              });
-            });
-          ]]>
-        </script>
-      </body>
-    </html>
-  </xsl:template>
+        
+    </body>
+  </html>
+</xsl:template>
 </xsl:stylesheet>

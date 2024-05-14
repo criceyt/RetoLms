@@ -28,6 +28,14 @@
                 <storage>20 GB available space</storage>
                 <sound>DirectX Compatible</sound>
             </minimal>
+            <recommended>
+                <system>Windows 7</system>
+                <processor>Intel Core i3-2100 / AMD FX-6300</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 660 / AMD Radeon HD 7850</graphics>
+                <storage>20 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </recommended>
         </system_requirements>
     </juego>
     <juego codigoJuego="2">
@@ -672,38 +680,38 @@
             </minimal>
         </system_requirements>
     </juego>
-        <juego codigoJuego="19">
-            <titulo>Outer Wilds</titulo>
-            <precio>24.99</precio>
-            <rating>4.6</rating>
-            <descripcion>
-                The Outer Wilds es un juego de aventuras desarrollado por Mobius Digital. Embárcate
-                en un viaje cósmico para descubrir los secretos de un sistema solar en constante
-                cambio. Explora planetas únicos, descubre ruinas antiguas y desentraña los misterios
-                de un universo en expansión. Con una narrativa cautivadora y una atmósfera única,
-                The Outer Wilds te llevará a lugares que nunca imaginaste.
-            </descripcion>
-            <generos>
-                <genero>Aventura</genero>
-                <genero>Exploración</genero>
-                <genero>Mundo abierto</genero>
-            </generos>
-            <developer>Mobius Digital</developer>
-            <publisher>Annapurna Interactive</publisher>
-            <release_date>30 de mayo de 2019</release_date>
-            <website>https://www.mobiusdigitalgames.com/outer-wilds</website>
-            <trailer>http://ekainminecraft.duckdns.org/videos/Outer Wilds.mp4</trailer>
-            <system_requirements>
-                <minimal>
-                    <system>Windows 7 (64-bit)</system>
-                    <processor>Intel Core i5-2300 / AMD FX-4100</processor>
-                    <memory>4 GB RAM</memory>
-                    <graphics>NVIDIA GeForce GTX 560 / AMD Radeon HD 6870</graphics>
-                    <storage>8 GB available space</storage>
-                    <sound>DirectX Compatible</sound>
-                </minimal>
-            </system_requirements>
-       
+    <juego codigoJuego="19">
+        <titulo>Outer Wilds</titulo>
+        <precio>24.99</precio>
+        <rating>4.6</rating>
+        <descripcion>
+            The Outer Wilds es un juego de aventuras desarrollado por Mobius Digital. Embárcate
+            en un viaje cósmico para descubrir los secretos de un sistema solar en constante
+            cambio. Explora planetas únicos, descubre ruinas antiguas y desentraña los misterios
+            de un universo en expansión. Con una narrativa cautivadora y una atmósfera única,
+            The Outer Wilds te llevará a lugares que nunca imaginaste.
+        </descripcion>
+        <generos>
+            <genero>Aventura</genero>
+            <genero>Exploración</genero>
+            <genero>Mundo abierto</genero>
+        </generos>
+        <developer>Mobius Digital</developer>
+        <publisher>Annapurna Interactive</publisher>
+        <release_date>30 de mayo de 2019</release_date>
+        <website>https://www.mobiusdigitalgames.com/outer-wilds</website>
+        <trailer>http://ekainminecraft.duckdns.org/videos/Outer Wilds.mp4</trailer>
+        <system_requirements>
+            <minimal>
+                <system>Windows 7 (64-bit)</system>
+                <processor>Intel Core i5-2300 / AMD FX-4100</processor>
+                <memory>4 GB RAM</memory>
+                <graphics>NVIDIA GeForce GTX 560 / AMD Radeon HD 6870</graphics>
+                <storage>8 GB available space</storage>
+                <sound>DirectX Compatible</sound>
+            </minimal>
+        </system_requirements>
+
 
     </juego>
 

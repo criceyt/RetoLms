@@ -2,7 +2,7 @@
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="RETO.xsd">
     <juegos>
-        <juego titulo="Cuphead" codigoJuego="1" ruta="../../pages/games/cuphead.html">
+        <juego titulo="Cuphead" codigoJuego="1" ruta="../../pages/games/cuphead.html" propietarios="34721678I">
             <genero>Acción</genero>
             <genero>Indie</genero>
             <plataforma>PC</plataforma>
@@ -11,7 +11,7 @@
             <precio>14.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/cuphead.jpg" />
         </juego>
-        <juego titulo="Cyberpunk 2077" codigoJuego="2" ruta="../../pages/games/ciberpunk.html">
+        <juego titulo="Cyberpunk 2077" codigoJuego="2" ruta="../../pages/games/ciberpunk.html" propietarios="34721678I">
             <genero>Rol</genero>
             <genero>Acción</genero>
             <genero>Mundo abierto</genero>
@@ -20,7 +20,7 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/Cyberpunk.jpg" />
         </juego>
 
-        <juego titulo="Dead Island 2" codigoJuego="3" ruta="../../pages/games/deadisland.html">
+        <juego titulo="Dead Island 2" codigoJuego="3" ruta="../../pages/games/deadisland.html" propietarios="34721678I, 20289763R">
             <genero>Adventure</genero>
             <plataforma>PlayStation5</plataforma>
             <precio>69.99</precio>
@@ -28,7 +28,7 @@
         </juego>
 
         <juego titulo="Divinity: Original Sin 2" codigoJuego="4"
-            ruta="../../pages/games/Divinity Original Sin 2.html">
+            ruta="../../pages/games/Divinity Original Sin 2.html" propietarios="20289763R">
             <genero>Adventure</genero>
             <genero>Rol</genero>
             <genero>Estrategia</genero>
@@ -39,14 +39,14 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/divinity.jpg" />
         </juego>
 
-        <juego titulo="Extreme Offroad Racing" codigoJuego="5" ruta="../../pages/games/extreme.html">
+        <juego titulo="Extreme Offroad Racing" codigoJuego="5" ruta="../../pages/games/extreme.html"  propietarios="20289763R">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>8.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/extreme.jpg" />
         </juego>
-        <juego titulo="Far Cry 5" codigoJuego="6" ruta="../../pages/games/farcry5.html">
+        <juego titulo="Far Cry 5" codigoJuego="6" ruta="../../pages/games/farcry5.html"  propietarios="20289763R">
             <genero>Shooter en primera persona</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PC</plataforma>
@@ -93,7 +93,7 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/starwars.jpg" />
         </juego>
         <juego titulo="Assassins Creed Valhalla" codigoJuego="12"
-            ruta="../../pages/games/valhalla.html">
+            ruta="../../pages/games/valhalla.html" propietarios="34721678I">
             <genero>Acción</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PlayStation4</plataforma>
@@ -182,19 +182,16 @@
                 <nombreJuego>STAR WARS Jedi: Fallen Order</nombreJuego>
             </biblioteca>
         </usuario>
-        <usuario id="02">
+        <usuario>
             <dni>34721678I</dni>
             <nombre>Ekain</nombre>
             <apellido>Larrea</apellido>
             <telefono>626514937</telefono>
             <contrasena>abcd*1234</contrasena>
             <codigoPostal>45293</codigoPostal>
-            <biblioteca>
-                <nombreJuego>Assassins Creed Valhalla</nombreJuego>
-                <nombreJuego>Dead Island 2</nombreJuego>
-            </biblioteca>
+
         </usuario>
-        <usuario id="03">
+        <usuario>
             <dni>20289763R</dni>
             <nombre>Gorka</nombre>
             <apellido>Arteaga</apellido>
@@ -202,10 +199,7 @@
             <contrasena>abcd*1234</contrasena>
             <premium />
             <codigoPostal>48920</codigoPostal>
-            <biblioteca>
-                <nombreJuego>RUST</nombreJuego>
-                <nombreJuego>STAR WARS Jedi: Fallen Order</nombreJuego>
-            </biblioteca>
+
         </usuario>
     </usuarios>
 </tienda>
