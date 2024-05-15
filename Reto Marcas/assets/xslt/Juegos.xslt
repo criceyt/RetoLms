@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
     <!-- Template para el elemento 'juego' -->
     <xsl:template match="juego">
+        <script type="text/javascript" src="../js/comprar.js"></script>
         <xsl:variable name="currentCodigoJuego" select="@codigoJuego" />
         <xsl:if test="$currentCodigoJuego = $codigoJuego">
+            
         <!-- Inicio del contenido -->
         <div class="right-section">
             <!-- Encabezado -->
@@ -16,7 +19,11 @@
                 <!-- Título del juego -->
                 <h2><xsl:value-of select="titulo"/></h2>
                 <!-- Precio del juego -->
-                <button>Comprar <xsl:value-of select="concat('$', precio)"/></button>
+                <form id="buyForm" method="get" action="../php/comprar.php" target="_blank">
+                    <input type="hidden" id="codigoJuegoInput" name="codigoJuego" value="" />
+                    <button id="buyButton" onclick="sendCodeToPHP()">Comprar <xsl:value-of select="concat('$', precio)"/></button>
+                </form>
+                
                 <!-- Enlace para añadir a lista de deseos -->
                 <a href=""><i class="fas fa-heart"></i>Add to wishlist</a>
             </div>

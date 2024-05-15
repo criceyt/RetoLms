@@ -5,135 +5,90 @@
       <head>
         <title>Lista de Juegos</title>
         <style>
-          table {
-          border-collapse: collapse;
-          width: 100%;
-          border-radius: 8px; /* Agregar bordes redondeados */
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+          .image-container {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap; /* Las imágenes se envuelven en filas adicionales */
+            max-width: 100%; /* Establece el ancho máximo al 100% del contenedor padre */
+           
           }
-          th, td {
-          padding: 8px;
-          text-align: left;
-          position: relative; /* Establecer posición relativa para contener el contenido */
-          z-index: 2; /* Asegurar que las celdas estén en el mismo contexto de apilamiento */
-          color: black; /* Cambiar el color del texto a negro */
+          
+          .image-container img {
+            width: 240px; /* Ancho definido */
+            height: 430px; /* Altura definida */
+            object-fit: cover;
+            opacity: .6;
+            transition: .5s ease;
+            /* Añadido para espacio entre las imágenes */
+            position: relative;
+           
           }
-          tr:nth-child(even) {
-          background-color: #777777; /* Cambiar el color de fondo de las filas pares */
-          }
-          th {
-          background-color: #f2f2f2;
-          text-align: center; /* Centrar el contenido de los th */
-          font-weight: bold; /* Hacer el texto del encabezado en negrita */
-          }
-          tr:hover {
-          background-color: #f5f5f5;
-          transform: scale(1.1); /* Ampliar la fila al pasar el cursor sobre ella */
-          transition: transform 0.3s; /* Agregar transición suave */
-          }
-          tr:hover td {
-          z-index: 2; /* Asegurar que las celdas ampliadas estén en un contexto de apilamiento
-    superior */
-          color: black; /* Cambiar el color del texto a negro al pasar el cursor sobre él */
-          }
-          img {
-          width: 150px; /* Tamaño de las imágenes */
-          height: auto; /* Mantener la proporción */
-          }
-          table a {
-          color: black; /* Cambiar el color del texto de los enlaces dentro de la tabla a negro */
-    text-decoration: none; /* Quitar subrayado de los enlaces */
-          }
-          table a:hover {
-          color: black; /* Cambiar el color del texto de los enlaces dentro de la tabla a negro al
-    pasar el cursor sobre ellos */
+          
+          /* Aplicar el efecto de hover */
+          .image-container img:hover {
+            cursor: crosshair;
+            width: 430px; /* Ancho al que cambia en el hover */
+            opacity: 1;
+            filter: contrast(100%);
           }
           .container-video {
-          position: relative;
-          width: 100%;
-          height: 450px; /* Ajusta la altura al 100% para cubrir completamente el contenedor */
-    overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 450px; /* Ajusta la altura al 100% para cubrir completamente el contenedor */
+            overflow: hidden;
           }
           .container-video video {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          filter: brightness(0.4); /* Reduce el brillo del video */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.4); /* Reduce el brillo del video */
           }
           .overlay {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          font-size: 24px;
-          text-align: center;
-          z-index: 3;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            z-index: 3;
           }
+         
         </style>
       </head>
       <body>
+        <div class="container-video">
+          <video muted="muted" loop="loop" playsinline="playsinline" autoplay="autoplay">
+            <source src="http://ekainminecraft.duckdns.org/videos/Cyberpunk(1).mp4" type="video/mp4"/>
+          </video>
+          <div class="overlay">
+            <p>Bienvenidos a su biblioteca</p>
+          </div>
+        </div>
         <xsl:choose>
           <!-- Verificar si el parámetro $dni está definido -->
           <xsl:when test="$dni">
-            <div class="container-video">
-              <video muted="muted" loop="loop" playsinline="playsinline" autoplay="autoplay">
-                <source src="http://ekainminecraft.duckdns.org/videos/Cyberpunk(1).mp4"
-                  type="video/mp4" />
-              </video>
-              <div class="overlay">
-                <p>Bienvenidos a nuestra tienda</p>
-              </div>
-            </div>
-        <table>
-              <tr>
-                <th>Carátula</th>
-                <th>Título</th>
-                <th>Género</th>
-                <th>Plataforma</th>
-                <th>Precio</th>
-              </tr>
-
+            <div class="image-container">
               <xsl:for-each
                 select="/tienda/juegos/juego[contains(concat(',', @propietarios, ','), concat(',', $dni, ','))]">
                 <xsl:variable name="titulo" select="@titulo" />
-            <xsl:variable name="codigoJuego"
+                <xsl:variable name="codigoJuego"
                   select="@codigoJuego" />
-            <xsl:variable name="genero" select="genero" />
-            <xsl:variable
-                  name="plataforma" select="plataforma" />
-            <tr>
-                  <td>
-                    <a href="{concat('pages/games/InfoJuego.php?codigoJuego=', $codigoJuego)}">
-                      <img src="{caratula/@src}" alt="{$titulo}" />
-                    </a>
-                  </td>
-                  <td>
-                    <a href="{concat('pages/games/InfoJuego.php?codigoJuego=', $codigoJuego)}">
-                      <xsl:value-of select="$titulo" />
-                    </a>
-                  </td>
-                  <td>
-                    <xsl:for-each select="genero">
-                      <xsl:value-of select="." />
-                  <xsl:if test="position() != last()">, </xsl:if>
-                    </xsl:for-each>
-                  </td>
-                  <td>
-                    <xsl:for-each select="plataforma">
-                      <xsl:value-of select="." />
-                  <xsl:if test="position() != last()">, </xsl:if>
-                    </xsl:for-each>
-                  </td>
-                  <td>
-                    <xsl:value-of select="precio" />
-                  </td>
-                </tr>
+                <xsl:variable name="caratulaSrc" select="caratula/@src" />
+                <a
+                  href="{concat('../php/InfoJuego.php?codigoJuego=', $codigoJuego)}">
+                  <div class="title-container">
+                    <img src="{$caratulaSrc}" alt="{$titulo}" />
+                    <!-- Título superpuesto -->
+                  
+                  </div>
+                </a>
               </xsl:for-each>
-            </table>
+            </div>
+
           </xsl:when>
           <xsl:otherwise>
             <!-- Si no está definido, mostrar un mensaje para que el usuario se logee -->

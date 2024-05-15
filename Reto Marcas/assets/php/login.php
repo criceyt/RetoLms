@@ -44,11 +44,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION["dni"] = $dni; // Guardar el DNI en la sesión
 
             // Redireccionar al usuario a la página de la biblioteca, por ejemplo
-            header("Location: ../../libreria.php");
+            header("Location: ./libreria.php");
             exit(); // Detener la ejecución del script después de la redirección
         } else {
             // Si las credenciales son incorrectas, redirigir al usuario al formulario de inicio de sesión con un mensaje de error
-            header("Location: ../../login2.php?error=1");
+            header("Location: ./login2.php?error=1");
             exit(); // Detener la ejecución del script después de la redirección
         }
     } catch (Exception $e) {

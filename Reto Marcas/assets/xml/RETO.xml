@@ -2,7 +2,8 @@
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="RETO.xsd">
     <juegos>
-        <juego titulo="Cuphead" codigoJuego="1" ruta="../../pages/games/cuphead.html" propietarios="34721678I">
+        <juego titulo="Cuphead" codigoJuego="1" ruta="../../pages/games/cuphead.html"
+            propietarios="79369902f ">
             <genero>Acción</genero>
             <genero>Indie</genero>
             <plataforma>PC</plataforma>
@@ -11,7 +12,8 @@
             <precio>14.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/cuphead.jpg" />
         </juego>
-        <juego titulo="Cyberpunk 2077" codigoJuego="2" ruta="../../pages/games/ciberpunk.html" propietarios="34721678I">
+        <juego titulo="Cyberpunk 2077" codigoJuego="2" ruta="../../pages/games/ciberpunk.html"
+            propietarios="79369902f">
             <genero>Rol</genero>
             <genero>Acción</genero>
             <genero>Mundo abierto</genero>
@@ -20,7 +22,8 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/Cyberpunk.jpg" />
         </juego>
 
-        <juego titulo="Dead Island 2" codigoJuego="3" ruta="../../pages/games/deadisland.html" propietarios="34721678I, 20289763R">
+        <juego titulo="Dead Island 2" codigoJuego="3" ruta="../../pages/games/deadisland.html"
+            propietarios="79369902f, 20289763R">
             <genero>Adventure</genero>
             <plataforma>PlayStation5</plataforma>
             <precio>69.99</precio>
@@ -39,14 +42,16 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/divinity.jpg" />
         </juego>
 
-        <juego titulo="Extreme Offroad Racing" codigoJuego="5" ruta="../../pages/games/extreme.html"  propietarios="20289763R">
+        <juego titulo="Extreme Offroad Racing" codigoJuego="5" ruta="../../pages/games/extreme.html"
+            propietarios="20289763R">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
             <precio>8.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/extreme.jpg" />
         </juego>
-        <juego titulo="Far Cry 5" codigoJuego="6" ruta="../../pages/games/farcry5.html"  propietarios="20289763R">
+        <juego titulo="Far Cry 5" codigoJuego="6" ruta="../../pages/games/farcry5.html"
+            propietarios="20289763R, 79369902f">
             <genero>Shooter en primera persona</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PC</plataforma>
@@ -55,26 +60,26 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/FarCry5.jpg" />
         </juego>
         <juego titulo="Gearhead Karting Simulator" codigoJuego="7"
-            ruta="../../pages/games/gearhead.html">
+            ruta="../../pages/games/gearhead.html" propietarios="79369902f">
             <genero>Racing</genero>
             <plataforma>PC</plataforma>
             <precio>4.49</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/gearhead.jpg" />
         </juego>
-        <juego titulo="Limbo" codigoJuego="8" ruta="../../pages/games/limbo.html">
+        <juego titulo="Limbo" codigoJuego="8" ruta="../../pages/games/limbo.html" propietarios="79369902f">
             <genero>Rompecabezas en 2D</genero>
             <plataforma>PC</plataforma>
             <precio>2.49</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/limbo.jpg" />
         </juego>
-        <juego titulo="Rocket League" codigoJuego="9" ruta="../../pages/games/rocketleague.html">
+        <juego titulo="Rocket League" codigoJuego="9" ruta="../../pages/games/rocketleague.html" propietarios=" ">
             <genero>Racing</genero>
             <plataforma>PlayStation4</plataforma>
             <plataforma>PlayStation5</plataforma>
             <precio>20.00</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/rocket.jpg" />
         </juego>
-        <juego titulo="RUST" codigoJuego="10" ruta="../../pages/games/rust.html">
+        <juego titulo="RUST" codigoJuego="10" ruta="../../pages/games/rust.html" propietarios=" ">
             <genero>Adventure</genero>
             <plataforma>PC</plataforma>
             <plataforma>PlayStation4</plataforma>
@@ -93,7 +98,7 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/starwars.jpg" />
         </juego>
         <juego titulo="Assassins Creed Valhalla" codigoJuego="12"
-            ruta="../../pages/games/valhalla.html" propietarios="34721678I">
+            ruta="../../pages/games/valhalla.html" propietarios="79369902f">
             <genero>Acción</genero>
             <genero>Mundo Abierto</genero>
             <plataforma>PlayStation4</plataforma>
@@ -102,7 +107,7 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/valhalla.jpg" />
         </juego>
         <juego titulo="Battlefield 2042" codigoJuego="13"
-            ruta="../../pages/games/battfield2042.html">
+            ruta="../../pages/games/battfield2042.html" propietarios="79369902f">
             <genero>Shooter en primera persona</genero>
             <genero>Multiplayer</genero>
             <plataforma>PC</plataforma>
@@ -112,7 +117,7 @@
             <caratula src="http://ekainminecraft.duckdns.org/fotos/Battlefield2042.jpeg" />
         </juego>
         <juego titulo="Call Of Duty:Modern Warfare III" codigoJuego="14"
-            ruta="../../pages/games/codmw3.html">
+            ruta="../../pages/games/codmw3.html"  propietarios="79369902f">
             <genero>Shooter en primera persona</genero>
             <genero>Multiplayer</genero>
             <plataforma>PC</plataforma>
@@ -121,7 +126,7 @@
             <precio>69.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/MWII.jpeg" />
         </juego>
-        <juego titulo="Dark Souls3" codigoJuego="15" ruta="../../pages/games/ds3.html">
+        <juego titulo="Dark Souls3" codigoJuego="15" ruta="../../pages/games/ds3.html" propietarios="79369902f">
             <genero>Action</genero>
             <genero>RPG</genero>
             <plataforma>PC</plataforma>
@@ -129,7 +134,7 @@
             <precio>29.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/darksouls3.jpg" />
         </juego>
-        <juego titulo="FORTNITE" codigoJuego="16" ruta="../../pages/games/fornite.html">
+        <juego titulo="FORTNITE" codigoJuego="16" ruta="../../pages/games/fornite.html" propietarios=" ">
             <genero>Multiplayer</genero>
             <genero>Shooter</genero>
             <genero>Tercera Persona</genero>
@@ -148,7 +153,7 @@
             <precio>9.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/skyrim.jpeg" />
         </juego>
-        <juego titulo="Diablo IV" codigoJuego="18" ruta="../../pages/games/diablo4.html">
+        <juego titulo="Diablo IV" codigoJuego="18" ruta="../../pages/games/diablo4.html" propietarios=" ">
             <genero>Action</genero>
             <genero>RPG</genero>
             <genero>Roguelike</genero>
@@ -157,7 +162,7 @@
             <precio>69.99</precio>
             <caratula src="http://ekainminecraft.duckdns.org/fotos/diabloiv.jpeg" />
         </juego>
-        <juego titulo="Outer Wilds" codigoJuego="19" ruta="../../pages/games/outerwilds.html">
+        <juego titulo="Outer Wilds" codigoJuego="19" ruta="../../pages/games/outerwilds.html" propietarios="79369902f">
             <genero>Aventura</genero>
             <genero>Exploración</genero>
             <plataforma>PC</plataforma>
@@ -167,39 +172,6 @@
         </juego>
     </juegos>
     <usuarios>
-        <usuario id="01">
-            <dni>78351267T</dni>
-            <nombre>Oier</nombre>
-            <apellido>Urkizu</apellido>
-            <correo>urkizu.oier@gmail.com</correo>
-            <contrasena>abcd*1234</contrasena>
-            <premium />
-            <codigoPostal>42390</codigoPostal>
-            <biblioteca>
-                <nombreJuego>Assassins Creed Valhalla</nombreJuego>
-                <nombreJuego>Dead Island 2</nombreJuego>
-                <nombreJuego>RUST</nombreJuego>
-                <nombreJuego>STAR WARS Jedi: Fallen Order</nombreJuego>
-            </biblioteca>
-        </usuario>
-        <usuario>
-            <dni>34721678I</dni>
-            <nombre>Ekain</nombre>
-            <apellido>Larrea</apellido>
-            <telefono>626514937</telefono>
-            <contrasena>abcd*1234</contrasena>
-            <codigoPostal>45293</codigoPostal>
-
-        </usuario>
-        <usuario>
-            <dni>20289763R</dni>
-            <nombre>Gorka</nombre>
-            <apellido>Arteaga</apellido>
-            <correo>arteaga.gorka@gmail.com</correo>
-            <contrasena>abcd*1234</contrasena>
-            <premium />
-            <codigoPostal>48920</codigoPostal>
-
-        </usuario>
+      
     </usuarios>
 </tienda>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,11 +9,12 @@
     <title>Legends Store - Game Store</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../../assets/css/default.css" />
-    <link rel="stylesheet" href="../../assets/css/library.css" />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/library.css" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
@@ -23,14 +25,14 @@
                 <i class="fab fa-playstation"></i>
             </div>
             <ul>
-                <li class="active">
+                <li>
                     <i class="fas fa-crown"></i>
                     <span>
                         <a href="../../index.html">Inicio</a>
                     </span>
                 </li>
 
-                <li>
+                <li class="active">
                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"
                         viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <style>
@@ -42,7 +44,7 @@
                             d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
                     </svg>
                     <span>
-                        <a href="../../libreria.php">Biblioteca</a>
+                        <a href="libreria.php">Biblioteca</a>
                     </span>
                 </li>
 
@@ -88,7 +90,7 @@
                     <span><a href="../../captchaSing.html">Registrarse</a></span>
                 </li>
             </ul>
-        </div>
+        </div>  
         <!-- ./Sidebar Section -->
 
 
@@ -102,13 +104,13 @@
                 </div>
 
                 <nav>
-                    <a href="../categories/all.php" class="active">All</a>
-                    <a href="../categories/action.html">Action</a>
-                    <a href="../categories/adventure.html">Adventure</a>
-                    <a href="../categories/indie.html">Indie</a>
-                    <a href="../categories/multiplayer.html">Multiplayer</a>
-                    <a href="../categories/racing.html">Racing</a>
-                    <a href="../categories/rpg.html">RPG</a>
+                    <a href="./all.php" class="active">All</a>
+                    <a href="../../pages/categories/action.html">Action</a>
+                    <a href="../../pages/categories/adventure.html">Adventure</a>
+                    <a href="../../pages/categories/indie.html">Indie</a>
+                    <a href="../../pages/categories/multiplayer.html">Multiplayer</a>
+                    <a href="../../pages/categories/racing.html">Racing</a>
+                    <a href="../../pages/categories/rpg.html">RPG</a>
                     <i class="fas fa-bars" id="hamburger"></i>
                 </nav>
             </header>
@@ -117,39 +119,52 @@
             <div class="main-flex">
 
                 <main>
-                <?php
-try {
-    // Importar la clase Session de BaseX
-    require_once '"../../../../basex/BDConexion.php"';
-    $session = new Session();        
-    // open database
-    $session->execute("open RETO");
-    // query
-    $xmlStr = $session->execute("xquery /");
-    // close session
-    $session->close();
-             
-    $xml = new DOMDocument;           
-    $xml->loadXML($xmlStr);
+                    <?php
+                    if (isset($_SESSION["dni"])) {
+                        try {
+                            // Importar la clase Session de BaseX
+                            require_once "../../../../basex/BDConexion.php";
 
-    // Cargar el archivo XSLT
-    $xsl = new DOMDocument;
-    $xsl->load('../../assets/xslt/all.xslt');
+                            // Crear una nueva sesión BaseX
+                            $session = new Session();
 
-    // Crear un procesador XSLT
-    $processor = new XSLTProcessor();
-    $processor->importStyleSheet($xsl);
+                            // Abrir la base de datos
+                            $session->execute("open RETO");
 
-    // Aplicar la transformación XSLT al XML
-    $transformedXML = $processor->transformToXML($xml);
+                            // Realizar la consulta para obtener el XML
+                            $xmlStr = $session->execute("xquery /");
 
-    // Imprimir el XML transformado
-    echo $transformedXML;
-} catch (Exception $e) {
-    // Manejar cualquier excepción
-    echo "Error: " . $e->getMessage();
-}
-?>
+                            // Cerrar la sesión
+                            $session->close();
+
+                            // Crear un nuevo documento XML a partir del string obtenido
+                            $xml = new DOMDocument;
+                            $xml->loadXML($xmlStr);
+
+                            // Crear un nuevo documento XSLT
+                            $xsl = new DOMDocument();
+                            $xsl->load("../xslt/biblioteca.xslt");
+
+                            // Crear un nuevo procesador XSLT
+                            $processor = new XSLTProcessor();
+                            $processor->importStylesheet($xsl);
+
+                            // Pasar el DNI del usuario como parámetro
+                            $dni = $_SESSION["dni"];
+                            $processor->setParameter('', 'dni', $dni);
+
+                            // Transformar el XML
+                            echo $processor->transformToXML($xml);
+                        } catch (Exception $e) {
+                            // Manejar cualquier excepción
+                            echo "Error: " . $e->getMessage();
+                        }
+                    } else {
+                        // Mostrar mensaje para logearse
+                        echo "<p>Por favor, inicie sesión para acceder a la biblioteca.</p>";
+                    }
+                    ?>
+
                 </main>
 
             </div>
